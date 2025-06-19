@@ -125,7 +125,7 @@ jobs:
           push: true
           tags: nazir710/taski_gateway:latest
 
-    deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: 
       - build_and_push_to_docker_hub
