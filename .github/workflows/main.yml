@@ -166,6 +166,6 @@ jobs:
     - name: Send message
       uses: appleboy/telegram-action@master
       with:
-        to: 487516151
-        token: 7831793736:AAFLmq19F_HGN1UZbsVOBqCjn7p2TCQAL-E
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
         message: Деплой успешно выполнен!
