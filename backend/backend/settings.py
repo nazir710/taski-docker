@@ -13,7 +13,6 @@ DEBUG = os.environ.get('DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['158.160.5.219', '127.0.0.1', 'localhost', 'kitty-project.servebeer.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
